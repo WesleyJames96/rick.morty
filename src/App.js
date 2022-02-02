@@ -21,8 +21,8 @@ function App() {
         <Navbar />
       </div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/:id" element={<CardDetails />} />
+        <Route path="/characters" element={<Home />} />
+        <Route path="/characters/:id" element={<CardDetails />} />
 
         <Route path="/episodes" element={<Episodes />} />
         <Route path="/episodes/:id" element={<CardDetails />} />
